@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import base from './modules/base'
-import claim from './modules/claim'
+import home from './modules/home'
 import notFound from './modules/notFound'
 import { appStore } from '@/store'
 
@@ -13,8 +13,7 @@ export const BLACK_LIST: string[] = []
 export const routes: RouteRecordRaw[] = [
   ...base,
   // 新增的路由放在注释中间 -- start
-  ...claim,
-  // ...user,
+  ...home,
   // 新增的路由放在注释中间 -- end
   ...notFound,
 ]

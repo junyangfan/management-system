@@ -1,8 +1,8 @@
 # Vue 3 + TypeScript + Vite
 
 # 项目运行步骤  
-1. 克隆代码: `git clone git@gitlab.momoso.com:fanjunyang/supplier-manager.git`   
-2. 进入项目目录: `cd supplier-manager`  
+1. 克隆代码: `git clone https://github.com/junyangfan/management-system.git`   
+2. 进入项目目录: `cd management-system`  
 3. 安装依赖: `yarn`  
 4. 启动本地开发环境: `yarn dev`  
 5. 打测试包: `yarn build:test`  
@@ -51,7 +51,6 @@
 │  │  KindTip.vue                 // 温馨提示组件
 │  │  Loading.vue                 // 全局Loading组件
 │  │  PreviewImage.vue            // 预览图片组件
-│  │  Print.vue                   // 打印组件(暂时不用)
 │  │  
 │  └─CloudTable                   // Table组件
 │          CloudFormItem.vue      
@@ -76,7 +75,7 @@
 │          note.ts
 │          notFound.ts
 │          
-├─store                            // 项目仓库
+├─store                            // 状态仓库
 │  │  index.ts
 │  │  
 │  └─modules                       // 仓库各个模块
