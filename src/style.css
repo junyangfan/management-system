@@ -1,0 +1,31 @@
+/* 全局通用样式修改 */
+
+@import "ant-design-vue/dist/antd.css";
+
+.ant-tabs-tab {
+  padding: 2px 6px !important;
+}
+.ant-tabs-nav {
+  margin: 0 0 0 0 !important;
+}
+.ant-tabs-tab-remove {
+  margin-left: 2px !important;
+}
+
+.ant-table-cell {
+  padding: 8px !important;
+}
+
+.ant-picker {
+  width: 100%;
+}
+
+.ant-typography {
+  margin-bottom: 0 !important;
+}
+
+.ant-back-top {
+  z-index: 101 !important;
+  bottom: 65px !important;
+  right: 5px !important;
+}
